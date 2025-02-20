@@ -3,17 +3,38 @@
 }
 
 /* Flex Container 1 */
-
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* Flex Container 2 */
-
+.flex-container-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
 /* Flex Container 3 */
-
+.flex-container-3 {
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
-
+.flex-container-4 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /* Flex Container 5 */
-
+.flex-container-5 {
+}
 /* Flex Container 6 */
 
 .flex-container-6 .flex-item {
