@@ -53,6 +53,10 @@ li.second {
   color: var(--magenta);
 }
 
-ol > .li {
+li.second + li {
   color: var(--royalblue);
+}
+
+li.second + li + li {
+  color: var(--magenta);
 }

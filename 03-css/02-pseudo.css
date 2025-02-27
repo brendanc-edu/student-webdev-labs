@@ -2,3 +2,15 @@
   width: 600px;
   margin: 40px auto;
 }
+
+.container p:first-child::first-letter {
+  font-size: xxx-large;
+}
+
+.container p:nth-child(2)::first-letter {
+  font-size: xxx-large;
+}
+
+.container p:nth-child(3)::first-letter {
+  font-size: xxx-large;
+}

@@ -26,21 +26,27 @@ Calculate the specificity of the rules below.
 ```css
 nav .list-item > a {
 }
+Specificity: 0012
 
 #main::first-letter {
 }
+Specificity: 101
 
 input[type] {
 }
+Specificity: 10
 
 section .main::first-line {
 }
+Specificity: 12
 
 nav ul.menu li#first a:not([class='visited']) {
 }
+Specificity: 134
 
 div ol li ul li ol li ul li a {
 }
+specificity: 10;
 ```
 
 ## <a id="ex04"></a> Exercise 04 - Layout
