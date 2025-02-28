@@ -1,6 +1,53 @@
+@media (min-width: 256px) {
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+  nav ul li {
+    display: block;
+  }
+}
+
+@media (min-width: 512px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+  nav ul li {
+    display: inline-block;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: var(--green);
     color: var(--white);
   }
+  nav ul li {
+    display: inline-block;
+  }
+}
+
+nav {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+  justify-content: start;
+}
+
+nav ul li {
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
