@@ -2,23 +2,32 @@
   grid-area: header;
 }
 
+.aside {
+  grid-area: aside;
+}
+
 .article {
   grid-area: article;
+}
+
+.section {
+  grid-area: section;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 .grid-container {
   display: grid;
   height: 97vh;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: auto 2fr 2fr auto auto;
   gap: 10px;
   grid-template-areas:
-    'header'
-    'article'
-    'article'
-    'section'
-    'section'
-    'section'
-    'aside'
-    'footer';
+    "header"
+    "article"
+    "section"
+    "aside"
+    "footer";
 }

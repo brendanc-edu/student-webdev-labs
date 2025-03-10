@@ -18,10 +18,10 @@
 /* Flex Container 3 */
 .flex-container-3 {
   display: flex;
+  justify-content: flex-end;
   height: 400px;
   flex-wrap: wrap;
   flex-direction: column-reverse;
-  justify-content: flex-end;
 }
 /* use height: 400px; on the container */
 
@@ -34,11 +34,40 @@
 }
 /* Flex Container 5 */
 .flex-container-5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.flex-container-5 .item1,
+.flex-container-5 .item3,
+.flex-container-5 .item6 {
+  height: 200px;
+}
+
+.flex-container-5 .item2,
+.flex-container-5 .item8 {
+  height: 250px;
+}
+
+.flex-container-5 .item4,
+.flex-container-5 .item5,
+.flex-container-5 .item7 {
+  height: 120px;
+}
+
 /* Flex Container 6 */
 
+.flex-container-6 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .flex-container-6 .flex-item {
-  width: 400px;
+  width: 30%;
 }
 
 /* use height: 300px; on the container */
